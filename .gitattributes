@@ -1,0 +1,11 @@
+# Text file normalization
+src/** linguist-detectable
+*.jpeg binary
+vendor/* linguist-vendored
+
+node_modules/* linguist-vendored
+examples/site/* linguist-vendored
+
+*.gif binary
+src/*.ts linguist-detectable
+examples/site/** linguist-vendored
